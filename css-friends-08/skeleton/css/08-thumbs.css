@@ -1,0 +1,19 @@
+/* PHASE 8: Thumbs */
+.thumbs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thumbs li {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.thumbs li:nth-child(3n-1) {
+  margin-left: 7px;
+  margin-right: 7px;
+}
